@@ -13,6 +13,7 @@ body {
 	align-items: center;
 	height: 100vh;
 }
+
 .container {
 	background-color: white;
 	width: 670px;
@@ -20,16 +21,19 @@ body {
 	border-radius: 10px;
 	padding: 20px;
 }
+
 .contain,
 ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .contain {
 	border: 1px solid black;
 	border-radius: 5px;
 }
+
 textarea {
 	border: none;
 	outline: none;
@@ -37,6 +41,7 @@ textarea {
 	height: 300px;
 	resize: none;
 }
+
 .from-text {
 	padding: 20px;
 	width: 300px;
@@ -46,6 +51,7 @@ textarea {
 	padding: 20px;
 	width: 300px;
 }
+
 ul {
 	padding: 20px 0;
 	justify-content: space-between;
@@ -58,9 +64,11 @@ ul {
 	justify-content: space-evenly;
 	align-items: center;
 }
+
 .controls > * {
 	padding: 10px;
 }
+
 button {
 	display: block;
 	width: 100%;
@@ -71,13 +79,16 @@ button {
 	border: none;
 	border-radius: 10px;
 }
+
 select {
 	border-radius: 5px;
 }
+
 select::-webkit-scrollbar {
 	width: 5px;
 	background-color: wheat;
 }
+
 select::-webkit-scrollbar-thumb {
 	width: 3px;
 	background-color: whitesmoke;
